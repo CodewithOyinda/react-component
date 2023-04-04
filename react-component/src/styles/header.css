@@ -1,0 +1,9 @@
+.app-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+}
+.app-header-menu {
+    display: flex;
+    gap: 15px;
+}

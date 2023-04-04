@@ -1,0 +1,50 @@
+.app-location {
+    background-color: #f2f2f2;
+    height: 50px;
+    border-bottom: 1px solid rgb(218, 220, 224);
+    color:#85757a;
+    padding-top:15px;
+    padding-left: 20px;
+    font-size: medium;
+}
+a {
+    color: #85757a;
+    margin-right: 35px;
+    font-size: 14px;
+}
+.app-footertext {
+    display: flex;
+    color: #85757a;
+    height: 10vh;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap:10px;
+}
+.app-blm {
+    word-spacing: normal;
+    display: flex;
+    float: left;
+    height: 7.5vh;
+    background-color: #f2f2f2;
+    padding-top:15px;
+    padding-left: 20px;
+
+}
+.app-brm {
+    display: flex;
+    float:right;
+    background-color: #f2f2f2;
+    padding:-20px 20px;
+}
+a:link {
+    text-decoration: none;
+   
+}
+.app-blm a:hover {
+    text-decoration: underline;
+}
+.app-brm a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+.app-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+#input-text {
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 2rem;
+    outline: none;
+    padding-left: 40px;
+}
+.searchicon {
+    display: flex;
+    position: absolute;
+    margin-top: -30px;
+    padding-left: 10px;
+    color: rgb(221, 218, 218);
+}
+.mic {
+    display: flex;
+    margin-left: 500px;
+    margin-top: -35px;
+    
+}
+.cam {
+    display: flex;
+    margin-left: 550px;
+    margin-top: -20px;
+}
+#input-text:hover{
+    background-color: white;
+}
+#input-text .searchfeatures {
+    display: flex;
+
+}
+.app-button {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+#btn {
+    border: none;
+    border-radius: 0.2rem;
+    height: 35px;
+    width: 150px;
+    background-color: #f8f9fa;
+}
+a:link {
+    text-decoration: none;
+}
+.app-languagelinks {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+}
+.app-languagelinks a {
+    color: #1a0db3;
+}
+.app-languagelinks a:hover {
+    text-decoration: underline;
+}
+.oldlist {
+    list-style-type: none;
+}
